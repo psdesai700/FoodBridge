@@ -145,6 +145,53 @@ def build_pdf(pdf_path):
     story.append(summary_table)
     story.append(Spacer(1, 10))
 
+    # 2.5 Team Roster Section
+    story.append(Paragraph("Project Team Roster", h2_style))
+    team_table_data = [
+        [
+            Paragraph("Team Member Name", table_header_style),
+            Paragraph("Student ID / Roll No.", table_header_style),
+            Paragraph("Designation", table_header_style),
+            Paragraph("Assigned Module Responsibility", table_header_style),
+        ],
+        [
+            Paragraph("<b>Aakansha Chawda</b>", table_cell_bold),
+            Paragraph("53013240014", table_cell_style),
+            Paragraph("Project Owner & Lead", table_cell_style),
+            Paragraph("Auth System, Verification Workflow & Admin Governance", table_cell_style),
+        ],
+        [
+            Paragraph("<b>Mahi Shah</b>", table_cell_bold),
+            Paragraph("53013240033", table_cell_style),
+            Paragraph("UI/UX Designer", table_cell_style),
+            Paragraph("Restaurant Surplus Management & Platform UI Design System", table_cell_style),
+        ],
+        [
+            Paragraph("<b>Palak Desai</b>", table_cell_bold),
+            Paragraph("53013240001", table_cell_style),
+            Paragraph("Full Stack Developer", table_cell_style),
+            Paragraph("NGO Operations Engine & Distribution Proof Verification", table_cell_style),
+        ],
+        [
+            Paragraph("<b>Jiya Shah</b>", table_cell_bold),
+            Paragraph("53013240004", table_cell_style),
+            Paragraph("QA Tester", table_cell_style),
+            Paragraph("Volunteer Delivery Fleet, Socket.io Real-Time Tracking & QA Test Suite", table_cell_style),
+        ],
+    ]
+    team_table = Table(team_table_data, colWidths=[1.6 * inch, 1.4 * inch, 1.5 * inch, 3.0 * inch])
+    team_table.setStyle(
+        TableStyle([
+            ("BACKGROUND", (0, 0), (-1, 0), SECONDARY_COLOR),
+            ("GRID", (0, 0), (-1, -1), 0.5, BORDER_COLOR),
+            ("PADDING", (0, 0), (-1, -1), 4),
+            ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+            ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, LIGHT_BG]),
+        ])
+    )
+    story.append(team_table)
+    story.append(Spacer(1, 10))
+
     # 3. Access Links & Demo Credentials
     story.append(Paragraph("1. System Endpoints & Demo Credentials", h2_style))
     

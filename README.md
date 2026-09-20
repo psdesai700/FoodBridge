@@ -6,12 +6,12 @@
 
 ## 👥 Project Team Members & Roles
 
-| Member Name | Student ID / Roll No. | Assigned Module & Role | Core Responsibilities |
+| Member Name | Student ID / Roll No. | Project Designation & Assigned Module | Core Responsibilities |
 | :--- | :--- | :--- | :--- |
-| **Team Member 1** | *(Team Member 1 Name / Roll No)* | **Auth & Admin Governance** | `auth/`, `verification/`, `admin/` APIs, Document Verification Queue, Admin Stats & Heatmap |
-| **Team Member 2** | *(Team Member 2 Name / Roll No)* | **Restaurant Surplus Module** | `restaurant/` APIs, `FoodListing` Schema, FSSAI Verification, Pickup OTP Generation |
-| **Team Member 3** | *(Team Member 3 Name / Roll No)* | **NGO Operations** | `ngo/` APIs, Claim Workflow, Direct Pickup Verification, Headcount & Photo Distribution Proof |
-| **Team Member 4** | *(Team Member 4 Name / Roll No)* | **Volunteer Delivery Fleet** | `volunteer/` APIs, Audit Trail, Socket.io Real-Time GPS Tracking & Live Map Simulation |
+| **Aakansha Chawda** | `53013240014` | **Project Owner & Admin Lead** | `auth/`, `verification/`, `admin/` APIs, Document Verification Queue, Admin Stats & Heatmap |
+| **Mahi Shah** | `53013240033` | **UI/UX Designer & Restaurant Module** | `restaurant/` APIs, `FoodListing` Schema, FSSAI Verification, Pickup OTP Generation, Design System |
+| **Palak Desai** | `53013240001` | **Full Stack Developer & NGO Operations** | `ngo/` APIs, Claim Workflow, Direct Pickup Verification, Headcount & Photo Distribution Proof |
+| **Jiya Shah** | `53013240004` | **QA Tester & Volunteer Delivery Fleet** | `volunteer/` APIs, Audit Trail, Socket.io Real-Time GPS Tracking & QA Automated Test Suite |
 
 ---
 
@@ -90,10 +90,10 @@ To prevent merge conflicts and allow parallel development across 4 team members:
 
 | Team Member | Module Focus | Backend Responsibility | Frontend Responsibility |
 | :--- | :--- | :--- | :--- |
-| **Member 1** | **Auth & Admin Governance** | `auth/`, `verification/`, `admin/` APIs, User & Verification Document Schemas, Admin Stats & Heatmap aggregation | Login, Register, Document Upload UI, Admin Dashboard, Verifications Queue, User Suspensions |
-| **Member 2** | **Restaurant Module** | `restaurant/` APIs, `FoodListing` Schema, FSSAI Verification, Pickup OTP Generation | Restaurant Dashboard, Create Surplus Listing Modal, NGO Claim Requests & OTP Display |
-| **Member 3** | **NGO Operations** | `ngo/` APIs, Claim logic, Direct Pickup OTP verification, Distribution Proof Submission & Headcount tracking | NGO Dashboard, Available Listings Map/Filter View, Claim Modal, Proof Submission Modal |
-| **Member 4** | **Volunteer Delivery Engine** | `volunteer/` APIs, `Donation` Audit Trail Schema, Socket.io Real-Time GPS Tracking Handler (`socketHandler.js`) | Volunteer Dashboard, Available Tasks Board, Pickup OTP Verification Modal, Live Tracking Map, GPS Simulator |
+| **Aakansha Chawda** *(Project Owner)* | **Auth & Admin Governance** | `auth/`, `verification/`, `admin/` APIs, User & Verification Document Schemas, Admin Stats & Heatmap aggregation | Login, Register, Document Upload UI, Admin Dashboard, Verifications Queue, User Suspensions |
+| **Mahi Shah** *(Designer)* | **Restaurant Module & UI System** | `restaurant/` APIs, `FoodListing` Schema, FSSAI Verification, Pickup OTP Generation | Restaurant Dashboard, Create Surplus Listing Modal, NGO Claim Requests & OTP Display |
+| **Palak Desai** *(Developer)* | **NGO Operations & Distribution Engine** | `ngo/` APIs, Claim logic, Direct Pickup OTP verification, Distribution Proof Submission & Headcount tracking | NGO Dashboard, Available Listings Map/Filter View, Claim Modal, Proof Submission Modal |
+| **Jiya Shah** *(Tester)* | **Volunteer Delivery Engine & QA Testing** | `volunteer/` APIs, `Donation` Audit Trail Schema, Socket.io Real-Time GPS Tracking Handler (`socketHandler.js`) | Volunteer Dashboard, Available Tasks Board, Pickup OTP Verification Modal, Live Tracking Map, GPS Simulator |
 
 ---
 
