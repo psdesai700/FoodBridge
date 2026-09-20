@@ -4,6 +4,17 @@
 
 ---
 
+## 👥 Project Team Members & Roles
+
+| Member Name | Student ID / Roll No. | Assigned Module & Role | Core Responsibilities |
+| :--- | :--- | :--- | :--- |
+| **Team Member 1** | *(Team Member 1 Name / Roll No)* | **Auth & Admin Governance** | `auth/`, `verification/`, `admin/` APIs, Document Verification Queue, Admin Stats & Heatmap |
+| **Team Member 2** | *(Team Member 2 Name / Roll No)* | **Restaurant Surplus Module** | `restaurant/` APIs, `FoodListing` Schema, FSSAI Verification, Pickup OTP Generation |
+| **Team Member 3** | *(Team Member 3 Name / Roll No)* | **NGO Operations** | `ngo/` APIs, Claim Workflow, Direct Pickup Verification, Headcount & Photo Distribution Proof |
+| **Team Member 4** | *(Team Member 4 Name / Roll No)* | **Volunteer Delivery Fleet** | `volunteer/` APIs, Audit Trail, Socket.io Real-Time GPS Tracking & Live Map Simulation |
+
+---
+
 ## 🌟 Key Features
 
 1. **4 Distinct User Roles & RBAC**:
